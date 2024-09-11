@@ -1,0 +1,16 @@
+.nav {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.nav_body {
+    background-color: #65653E;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.nav_li {
+   margin: auto;
+}
