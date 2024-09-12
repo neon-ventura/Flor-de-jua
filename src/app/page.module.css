@@ -34,6 +34,10 @@
     margin-bottom: 50px;
 }
 
+.body {
+    background-color: #CCC8A6;
+}
+
 .btn1 {
     border: none;
     margin: 10px;
