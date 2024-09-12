@@ -1,5 +1,6 @@
 .container {
     background-color: #65653E;
+    border-radius: 0px 0px 80px 80px;
     height: 100vh;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .title {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .img2 {

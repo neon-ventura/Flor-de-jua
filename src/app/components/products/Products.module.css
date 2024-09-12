@@ -1,0 +1,47 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+/* 65653E */
+.title {
+    font-family: 'Great Vibes';
+    color: #9E652E;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.list_products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item_section {
+    display: flex;
+    flex-direction: row;
+}
+.item_section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    margin-right: 3px;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #9E652E;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    color: #CCC8A6;
+}
