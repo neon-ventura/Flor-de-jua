@@ -6,6 +6,10 @@ import Image from 'next/image'
 
 export default function Products() {
 
+    const [section1, setSection1] = useState(true)
+    const [section2, setSection2] = useState(false)
+    const [section3, setSection3] = useState(false)
+
     const [cor1, setCor1] = useState('#65653E')
     const [cor2, setCor2] = useState('#9E652E')
     const [cor3, setCor3] = useState('#9E652E')
@@ -14,6 +18,7 @@ export default function Products() {
 
     const mudarCor1 = () => {
         if (cor1 === '#9E652E') {
+            setSection1(true)
             setCor5('#9E652E')
             setCor4('#9E652E')
             setCor3('#9E652E')
@@ -22,8 +27,10 @@ export default function Products() {
         }
     }
 
-    const mudarCor2 = ()  => {
+    const mudarCor2 = () => {
         if (cor2 === '#9E652E') {
+            setSection1(false)
+            setSection2(true)
             setCor1('#9E652E')
             setCor2('#65653E')
             setCor3('#9E652E')
@@ -34,6 +41,9 @@ export default function Products() {
 
     const mudarCor3 = () => {
         if (cor3 === '#9E652E') {
+            setSection1(false)
+            setSection2(false)
+            setSection3(true)
             setCor1('#9E652E')
             setCor2('#9E652E')
             setCor3('#65653E')
@@ -69,18 +79,18 @@ export default function Products() {
                 <div className={styles.products_section}>
                     <div className={styles.list_products}>
                         <div className={styles.item_section}>
-                            <button className={styles.btn} onClick={mudarCor1} style={{backgroundColor: cor1}}>
+                            <button className={styles.btn} onClick={mudarCor1} style={{ backgroundColor: cor1 }}>
                                 <Image className={styles.img} height={30} width={30} src={'/icons-products/xicara-de-cafe.png'} />
                                 <p>Cafés</p>
                             </button>
 
-                            <button className={styles.btn} onClick={mudarCor2} style={{backgroundColor: cor2}}>
+                            <button className={styles.btn} onClick={mudarCor2} style={{ backgroundColor: cor2 }}>
                                 <Image className={styles.img} height={30} width={30} src={'/icons-products/fatia-de-bolo.png'} />
                                 <p>Bolos</p>
                             </button>
 
 
-                            <button className={styles.btn} onClick={mudarCor3} style={{backgroundColor: cor3}}>
+                            <button className={styles.btn} onClick={mudarCor3} style={{ backgroundColor: cor3 }}>
                                 <Image className={styles.img} height={30} width={30} src={'/icons-products/fruta-seca.png'} />
                                 <p>Salgados</p>
                             </button>
@@ -88,19 +98,122 @@ export default function Products() {
                         </div>
                         <div className={styles.item_section2}>
 
-                            <button className={styles.btn} onClick={mudarCor4} style={{backgroundColor: cor4}}>
+                            <button className={styles.btn} onClick={mudarCor4} style={{ backgroundColor: cor4 }}>
                                 <Image className={styles.img} height={30} width={30} src={'/icons-products/muffin.png'} />
                                 <p>Doces</p>
                             </button>
 
 
-                            <button className={styles.btn} onClick={mudarCor5} style={{backgroundColor: cor5}}>
+                            <button className={styles.btn} onClick={mudarCor5} style={{ backgroundColor: cor5 }}>
                                 <Image className={styles.img} height={30} width={30} src={'/icons-products/suco-de-laranja.png'} />
                                 <p>Sucos</p>
                             </button>
 
                         </div>
                     </div>
+
+                    {
+                        section1 ?
+                            (<div className={styles.products}>
+                                <div className={styles.card}>
+                                    <Image height={250} width={250} src={'/products/cafe/img-1.png'} />
+                                    <p>Mocha Caramelo</p>
+                                    <p>........ 4.00$</p>
+                                </div>
+
+                                <div className={styles.card}>
+                                    <Image height={250} width={250} src={'/products/cafe/img-2.avif'} />
+                                    <p>Macchiato Canelinha</p>
+                                    <p>........ 4.00$</p>
+                                </div>
+
+                                <div className={styles.card}>
+                                    <Image height={250} width={250} src={'/products/cafe/img-3.jpg'} />
+                                    <p>Capuccino Gelado</p>
+                                    <p>........ 4.00$</p>
+                                </div>
+
+                                <div className={styles.card}>
+                                    <Image height={250} width={250} src={'/products/cafe/img-4.jpg'} />
+                                    <p>Café Espresso</p>
+                                    <p>........ 4.00$</p>
+                                </div>
+
+                                <div className={styles.card}>
+                                    <Image height={250} width={250} src={'/products/cafe/img-5.jpg'} />
+                                    <p>Affogato</p>
+                                    <p>R$ ........ 4.00$</p>
+                                </div>
+                            </div>
+                            ) : section2 ? (
+                                <div className={styles.products}>
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-1.png'} />
+                                        <p>Bolo</p>
+                                        <p>........ 4.00$</p>
+                                    </div>
+
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-2.avif'} />
+                                        <p>Macchiato Canelinha</p>
+                                        <p>........ 4.00$</p>
+                                    </div>
+
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-3.jpg'} />
+                                        <p>Capuccino Gelado</p>
+                                        <p>........ 4.00$</p>
+                                    </div>
+
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-4.jpg'} />
+                                        <p>Café Espresso</p>
+                                        <p>........ 4.00$</p>
+                                    </div>
+
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-5.jpg'} />
+                                        <p>Affogato</p>
+                                        <p>R$ ........ 4.00$</p>
+                                    </div>
+                                </div>
+                            ) : section3 ? (
+                                <div className={styles.products}>
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-1.png'} />
+                                        <p>Salgados</p>
+                                        <p>........ 4.00$</p>
+                                    </div>
+
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-2.avif'} />
+                                        <p>Macchiato Canelinha</p>
+                                        <p>........ 4.00$</p>
+                                    </div>
+
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-3.jpg'} />
+                                        <p>Capuccino Gelado</p>
+                                        <p>........ 4.00$</p>
+                                    </div>
+
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-4.jpg'} />
+                                        <p>Café Espresso</p>
+                                        <p>........ 4.00$</p>
+                                    </div>
+
+                                    <div className={styles.card}>
+                                        <Image height={250} width={250} src={'/products/cafe/img-5.jpg'} />
+                                        <p>Affogato</p>
+                                        <p>R$ ........ 4.00$</p>
+                                    </div>
+                                </div>
+                            ) : alert('olá')
+                    }
+
+
+
                 </div>
             </div>
         </>
