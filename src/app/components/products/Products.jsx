@@ -9,6 +9,8 @@ export default function Products() {
     const [section1, setSection1] = useState(true)
     const [section2, setSection2] = useState(false)
     const [section3, setSection3] = useState(false)
+    const [section4, setSection4] = useState(false)
+    const [section5, setSection5] = useState(false)
 
     const [cor1, setCor1] = useState('#65653E')
     const [cor2, setCor2] = useState('#9E652E')
@@ -54,6 +56,10 @@ export default function Products() {
 
     const mudarCor4 = () => {
         if (cor4 === '#9E652E') {
+            setSection1(false)
+            setSection2(false)
+            setSection3(false)
+            setSection4(true)
             setCor1('#9E652E')
             setCor2('#9E652E')
             setCor3('#9E652E')
@@ -64,6 +70,11 @@ export default function Products() {
 
     const mudarCor5 = () => {
         if (cor4 === '#9E652E') {
+            setSection1(false)
+            setSection2(false)
+            setSection3(false)
+            setSection4(false)
+            setSection5(true)
             setCor1('#9E652E')
             setCor2('#9E652E')
             setCor3('#9E652E')
@@ -148,68 +159,90 @@ export default function Products() {
                             ) : section2 ? (
                                 <div className={styles.products}>
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-1.png'} />
-                                        <p>Bolo</p>
+                                        <Image height={250} width={250} src={'/products/bolo/img-1.jpg'} />
+                                        <p>Banana com Nutella</p>
                                         <p>........ 4.00$</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-2.avif'} />
-                                        <p>Macchiato Canelinha</p>
+                                        <Image height={250} width={250} src={'/products/bolo/img-2.webp'} />
+                                        <p>Red Velvet</p>
                                         <p>........ 4.00$</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-3.jpg'} />
-                                        <p>Capuccino Gelado</p>
+                                        <Image height={250} width={250} src={'/products/bolo/img-3.jpg'} />
+                                        <p>Ninho com Nutella</p>
                                         <p>........ 4.00$</p>
                                     </div>
 
-                                    <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-4.jpg'} />
-                                        <p>Café Espresso</p>
-                                        <p>........ 4.00$</p>
-                                    </div>
-
-                                    <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-5.jpg'} />
-                                        <p>Affogato</p>
-                                        <p>R$ ........ 4.00$</p>
-                                    </div>
                                 </div>
                             ) : section3 ? (
                                 <div className={styles.products}>
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-1.png'} />
-                                        <p>Salgados</p>
+                                        <Image height={250} width={250} src={'/products/salgado/img-1.jpeg'} />
+                                        <p>Quiche carne de Sol</p>
                                         <p>........ 4.00$</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-2.avif'} />
-                                        <p>Macchiato Canelinha</p>
+                                        <Image height={250} width={250} src={'/products/salgado/img-2.jpg'} />
+                                        <p>Pão de Queijo</p>
                                         <p>........ 4.00$</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-3.jpg'} />
-                                        <p>Capuccino Gelado</p>
+                                        <Image height={250} width={250} src={'/products/salgado/img-3.webp'} />
+                                        <p>Quiche 4 queijos</p>
                                         <p>........ 4.00$</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-4.jpg'} />
-                                        <p>Café Espresso</p>
+                                        <Image height={250} width={250} src={'/products/salgado/img-4.webp'} />
+                                        <p>Cuscuz</p>
                                         <p>........ 4.00$</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/cafe/img-5.jpg'} />
-                                        <p>Affogato</p>
+                                        <Image height={250} width={250} src={'/products/salgado/img-5.jpg'} />
+                                        <p>Crepe Salgado</p>
                                         <p>R$ ........ 4.00$</p>
                                     </div>
                                 </div>
-                            ) : alert('olá')
+                            ) : section4 ? 
+                            (
+                            <div className={styles.products}>
+                            <div className={styles.card}>
+                                <Image height={250} width={250} src={'/products/salgado/img-1.jpeg'} />
+                                <p>Quiche carne de Sol</p>
+                                <p>........ 4.00$</p>
+                            </div>
+
+                            <div className={styles.card}>
+                                <Image height={250} width={250} src={'/products/salgado/img-2.jpg'} />
+                                <p>Pão de Queijo</p>
+                                <p>........ 4.00$</p>
+                            </div>
+
+                            <div className={styles.card}>
+                                <Image height={250} width={250} src={'/products/salgado/img-3.webp'} />
+                                <p>Quiche 4 queijos</p>
+                                <p>........ 4.00$</p>
+                            </div>
+
+                            <div className={styles.card}>
+                                <Image height={250} width={250} src={'/products/salgado/img-4.webp'} />
+                                <p>Cuscuz</p>
+                                <p>........ 4.00$</p>
+                            </div>
+
+                            <div className={styles.card}>
+                                <Image height={250} width={250} src={'/products/salgado/img-5.jpg'} />
+                                <p>Crepe Salgado</p>
+                                <p>R$ ........ 4.00$</p>
+                            </div>
+                        </div>
+                        ) : alert('olá')
                     }
 
 
