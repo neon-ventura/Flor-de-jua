@@ -127,119 +127,119 @@ export default function Products() {
                         section1 ?
                             (<div className={styles.products}>
                                 <div className={styles.card}>
-                                    <Image height={250} width={250} src={'/products/cafe/img-1.png'} />
+                                    <Image className={styles.imgCard} height={250} width={250} src={'/products/cafe/img-1.png'} />
                                     <p>Mocha Caramelo</p>
-                                    <p>........ 4.00$</p>
+                                    <p>R$ 4.00</p>
                                 </div>
 
                                 <div className={styles.card}>
-                                    <Image height={250} width={250} src={'/products/cafe/img-2.avif'} />
+                                    <Image className={styles.imgCard} height={250} width={250} src={'/products/cafe/img-2.avif'} />
                                     <p>Macchiato Canelinha</p>
-                                    <p>........ 4.00$</p>
+                                    <p>R$ 4.00</p>
                                 </div>
 
                                 <div className={styles.card}>
-                                    <Image height={250} width={250} src={'/products/cafe/img-3.jpg'} />
+                                    <Image className={styles.imgCard} height={250} width={250} src={'/products/cafe/img-3.jpg'} />
                                     <p>Capuccino Gelado</p>
-                                    <p>........ 4.00$</p>
+                                    <p>R$ 4.00</p>
                                 </div>
 
                                 <div className={styles.card}>
-                                    <Image height={250} width={250} src={'/products/cafe/img-4.jpg'} />
+                                    <Image className={styles.imgCard} height={250} width={250} src={'/products/cafe/img-4.jpg'} />
                                     <p>Café Espresso</p>
-                                    <p>........ 4.00$</p>
+                                    <p>R$ 4.00</p>
                                 </div>
 
                                 <div className={styles.card}>
-                                    <Image height={250} width={250} src={'/products/cafe/img-5.jpg'} />
+                                    <Image className={styles.imgCard} height={250} width={250} src={'/products/cafe/img-5.jpg'} />
                                     <p>Affogato</p>
-                                    <p>R$ ........ 4.00$</p>
+                                    <p>R$ 4.00</p>
                                 </div>
                             </div>
                             ) : section2 ? (
                                 <div className={styles.products}>
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/bolo/img-1.jpg'} />
+                                        <Image className={styles.imgCard} height={250} width={250} src={'/products/bolo/img-1.jpg'} />
                                         <p>Banana com Nutella</p>
-                                        <p>........ 4.00$</p>
+                                        <p>R$ 4.00</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/bolo/img-2.webp'} />
+                                        <Image className={styles.imgCard} height={250} width={250} src={'/products/bolo/img-2.webp'} />
                                         <p>Red Velvet</p>
-                                        <p>........ 4.00$</p>
+                                        <p>R$ 4.00</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/bolo/img-3.jpg'} />
+                                        <Image className={styles.imgCard} height={250} width={250} src={'/products/bolo/img-3.jpg'} />
                                         <p>Ninho com Nutella</p>
-                                        <p>........ 4.00$</p>
+                                        <p>R$ 4.00</p>
                                     </div>
 
                                 </div>
                             ) : section3 ? (
                                 <div className={styles.products}>
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/salgado/img-1.jpeg'} />
+                                        <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-1.jpeg'} />
                                         <p>Quiche carne de Sol</p>
-                                        <p>........ 4.00$</p>
+                                        <p>R$ 4.00</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/salgado/img-2.jpg'} />
+                                        <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-2.jpg'} />
                                         <p>Pão de Queijo</p>
-                                        <p>........ 4.00$</p>
+                                        <p>R$ 4.00</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/salgado/img-3.webp'} />
+                                        <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-3.webp'} />
                                         <p>Quiche 4 queijos</p>
-                                        <p>........ 4.00$</p>
+                                        <p>R$ 4.00</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/salgado/img-4.webp'} />
+                                        <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-4.webp'} />
                                         <p>Cuscuz</p>
-                                        <p>........ 4.00$</p>
+                                        <p>R$ 4.00</p>
                                     </div>
 
                                     <div className={styles.card}>
-                                        <Image height={250} width={250} src={'/products/salgado/img-5.jpg'} />
+                                        <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-5.jpg'} />
                                         <p>Crepe Salgado</p>
-                                        <p>R$ ........ 4.00$</p>
+                                        <p>R$ 4.00</p>
                                     </div>
                                 </div>
                             ) : section4 ? 
                             (
                             <div className={styles.products}>
                             <div className={styles.card}>
-                                <Image height={250} width={250} src={'/products/salgado/img-1.jpeg'} />
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-1.jpeg'} />
                                 <p>Quiche carne de Sol</p>
-                                <p>........ 4.00$</p>
+                                <p>R$ 4.00</p>
                             </div>
 
                             <div className={styles.card}>
-                                <Image height={250} width={250} src={'/products/salgado/img-2.jpg'} />
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-2.jpg'} />
                                 <p>Pão de Queijo</p>
-                                <p>........ 4.00$</p>
+                                <p>R$ 4.00</p>
                             </div>
 
                             <div className={styles.card}>
-                                <Image height={250} width={250} src={'/products/salgado/img-3.webp'} />
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-3.webp'} />
                                 <p>Quiche 4 queijos</p>
-                                <p>........ 4.00$</p>
+                                <p>R$ 4.00</p>
                             </div>
 
                             <div className={styles.card}>
-                                <Image height={250} width={250} src={'/products/salgado/img-4.webp'} />
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-4.webp'} />
                                 <p>Cuscuz</p>
-                                <p>........ 4.00$</p>
+                                <p>R$ 4.00</p>
                             </div>
 
                             <div className={styles.card}>
-                                <Image height={250} width={250} src={'/products/salgado/img-5.jpg'} />
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-5.jpg'} />
                                 <p>Crepe Salgado</p>
-                                <p>R$ ........ 4.00$</p>
+                                <p>R$ 4.00</p>
                             </div>
                         </div>
                         ) : alert('olá')
