@@ -70,3 +70,13 @@
     border-radius: 10px;
     margin-bottom: 40px;
 }
+
+.productName {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.price {
+    font-size: 1.3em;
+}

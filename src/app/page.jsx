@@ -1,5 +1,7 @@
+import About from "./components/about/About";
 import Nav from "./components/nav/Nav";
 import Products from "./components/products/Products";
+import Testimonials from "./components/testimonials/Testimonias";
 import Values from "./components/values/Values";
 import styles from "./page.module.css"
 
@@ -25,6 +27,8 @@ export default function Home() {
         </container>
         <Values />
         <Products />
+        <Testimonials />
+        <About />
       </div>
 
     </>

@@ -1,0 +1,44 @@
+.content {
+    background-image: url('/about/background.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about {
+    background-color: rgba(0, 0, 0, 0.628);
+    height: 100vh;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Great Vibes';
+    font-size: 3em;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.text {
+    font-size: 1.5em;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #65653E;
+    color: white;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
