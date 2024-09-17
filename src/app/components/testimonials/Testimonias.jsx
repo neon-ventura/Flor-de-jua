@@ -1,13 +1,26 @@
+"use client"
+
 import styles from './Testimonias.module.css'
 import Image from 'next/image'
+import 'aos/dist/aos.css'
+import AOS from 'aos'
+import { useEffect } from 'react'
 
 export default function Testimonials() {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        })
+    }, [])
+
     return(
         <>
             <div className={styles.content}>
                 <h1 className={styles.title}>Testemunhos</h1>
                 <div className={styles.testimonials}>
-                    <div className={styles.card}>
+                    <div data-aos="fade-up" className={styles.card}>
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
@@ -19,7 +32,7 @@ export default function Testimonials() {
                             <p>Pedro</p>
                         </div>
                     </div>
-                    <div className={styles.card}>
+                    <div data-aos="fade-up" className={styles.card}>
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
@@ -31,7 +44,7 @@ export default function Testimonials() {
                             <p>Mary</p>
                         </div>
                     </div>
-                    <div className={styles.card}>
+                    <div data-aos="fade-up" className={styles.card}>
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
