@@ -20,7 +20,7 @@ export default function Testimonials() {
             <div className={styles.content}>
                 <h1 className={styles.title}>Testemunhos</h1>
                 <div className={styles.testimonials}>
-                    <div data-aos="fade-up" className={styles.card}>
+                    <div data-aos="zoom-in-up" className={styles.card}>
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
@@ -32,7 +32,7 @@ export default function Testimonials() {
                             <p>Pedro</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.card}>
+                    <div data-aos="zoom-in-up" className={styles.card}>
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
@@ -44,7 +44,7 @@ export default function Testimonials() {
                             <p>Mary</p>
                         </div>
                     </div>
-                    <div data-aos="fade-up" className={styles.card}>
+                    <div data-aos="zoom-in-up" className={styles.card}>
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
