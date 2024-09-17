@@ -85,7 +85,7 @@ export default function Products() {
 
     return (
         <>
-            <div className={styles.content}>
+            <div data-aos="fade-up" className={styles.content}>
                 <h1 className={styles.title}>Cardápio</h1>
                 <div className={styles.products_section}>
                     <div className={styles.list_products}>
