@@ -108,6 +108,10 @@ export default function Products() {
 
                         </div>
                         <div className={styles.item_section2}>
+                            <button className={styles.btn} onClick={mudarCor5} style={{ backgroundColor: cor5 }}>
+                                <Image className={styles.img} height={30} width={30} src={'/icons-products/suco-de-laranja.png'} />
+                                <p>Sucos</p>
+                            </button>
 
                             <button className={styles.btn} onClick={mudarCor4} style={{ backgroundColor: cor4 }}>
                                 <Image className={styles.img} height={30} width={30} src={'/icons-products/muffin.png'} />
@@ -115,10 +119,6 @@ export default function Products() {
                             </button>
 
 
-                            <button className={styles.btn} onClick={mudarCor5} style={{ backgroundColor: cor5 }}>
-                                <Image className={styles.img} height={30} width={30} src={'/icons-products/suco-de-laranja.png'} />
-                                <p>Sucos</p>
-                            </button>
 
                         </div>
                     </div>
@@ -213,36 +213,57 @@ export default function Products() {
                             (
                             <div className={styles.products}>
                             <div className={styles.card}>
-                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-1.jpeg'} />
-                                <p className={styles.productName}>Quiche carne de Sol</p>
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/doce/img-1.jpg'} />
+                                <p className={styles.productName}>Tapioca Doce</p>
                                 <p className={styles.price}>R$ 4.00</p>
                             </div>
 
                             <div className={styles.card}>
-                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-2.jpg'} />
-                                <p className={styles.productName}>Pão de Queijo</p>
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/doce/img-2.jpg'} />
+                                <p className={styles.productName}>Crepe Doce</p>
                                 <p className={styles.price}>R$ 4.00</p>
                             </div>
 
                             <div className={styles.card}>
-                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-3.webp'} />
-                                <p className={styles.productName}>Quiche 4 queijos</p>
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/doce/img-3.jpg'} />
+                                <p className={styles.productName}>Pudim de Tapioca</p>
                                 <p className={styles.price}>R$ 4.00</p>
                             </div>
 
                             <div className={styles.card}>
-                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-4.webp'} />
-                                <p className={styles.productName}>Cuscuz</p>
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/doce/img-4.avif'} />
+                                <p className={styles.productName}>Petit Gateu</p>
                                 <p className={styles.price}>R$ 4.00</p>
                             </div>
 
                             <div className={styles.card}>
-                                <Image className={styles.imgCard} height={250} width={250} src={'/products/salgado/img-5.jpg'} />
-                                <p className={styles.productName}>Crepe Salgado</p>
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/doce/img-5.webp'} />
+                                <p className={styles.productName}>Brownie</p>
                                 <p className={styles.price}>R$ 4.00</p>
                             </div>
                         </div>
-                        ) : alert('olá')
+                        ) : 
+                        (
+                            <div className={styles.products}>
+                            <div className={styles.card}>
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/suco/img-1.jpeg'} />
+                                <p className={styles.productName}>Cajá</p>
+                                <p className={styles.price}>R$ 4.00</p>
+                            </div>
+
+                            <div className={styles.card}>
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/suco/img-2.jpg'} />
+                                <p className={styles.productName}>Frutas Vermelhas</p>
+                                <p className={styles.price}>R$ 4.00</p>
+                            </div>
+
+                            <div className={styles.card}>
+                                <Image className={styles.imgCard} height={250} width={250} src={'/products/suco/img-3.jpg'} />
+                                <p className={styles.productName}>Laranja</p>
+                                <p className={styles.price}>R$ 4.00</p>
+                            </div>
+                        </div>
+                        )
                     }
 
 
