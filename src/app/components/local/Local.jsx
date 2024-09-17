@@ -6,7 +6,7 @@ export default function Local() {
         <>
             <div className={styles.content}>
                 <h1 className={styles.title}>Visite-nos</h1>
-                <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59879.371871449184!2d-42.036795313310876!3d-20.281187572675265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbb03345bf038a3%3A0xff61295d6444092c!2sFlor%20de%20Ju%C3%A1!5e0!3m2!1spt-PT!2sbr!4v1726537396621!5m2!1spt-PT!2sbr" width="600" height="450" alt='Mapa' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59879.371871449184!2d-42.036795313310876!3d-20.281187572675265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbb03345bf038a3%3A0xff61295d6444092c!2sFlor%20de%20Ju%C3%A1!5e0!3m2!1spt-PT!2sbr!4v1726537396621!5m2!1spt-PT!2sbr" width="600" height="450" alt='Mapa' loading="lazy" ></iframe>
                 <div className={styles.desc}>
                     <div className={styles.item}>
                         <Image className={styles.img} alt='icon-local' height={60} width={60} src={'/local/placeholder.png'}/>
