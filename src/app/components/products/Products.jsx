@@ -242,7 +242,7 @@ export default function Products() {
                                 <p className={styles.price}>R$ 4.00</p>
                             </div>
                         </div>
-                        ) : 
+                        ) : section5 ? 
                         (
                             <div className={styles.products}>
                             <div className={styles.card}>
@@ -263,7 +263,7 @@ export default function Products() {
                                 <p className={styles.price}>R$ 4.00</p>
                             </div>
                         </div>
-                        )
+                        ) : alert('Erro ao carregar produto')
                     }
 
 
