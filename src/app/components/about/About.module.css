@@ -1,13 +1,11 @@
 .content {
     background-image: url('/about/background.jpg');
-    height: 100vh;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .about {
     background-color: rgba(0, 0, 0, 0.628);
-    height: 100vh;
     color: white;
 }
 
