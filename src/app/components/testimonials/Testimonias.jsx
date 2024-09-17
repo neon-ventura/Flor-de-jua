@@ -11,36 +11,36 @@ export default function Testimonials() {
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
-                            <p>Descobrir essa cafeteria foi como encontrar um oásis no meio da correria do dia a dia. Recomendo a todos que buscam qualidade e um ótimo atendimento."</p>
+                            <p>"É um verdadeiro achado para quem aprecia bons momentos e sabores únicos. Vale a visita para quem gosta de um espaço aconchegante."</p>
                         </div>
 
                         <div className={styles.perfil}>
-                            <Image className={styles.img} height={80} width={80} src={'/testimonials/perfil.png'}/>
-                            <p>Name</p>
+                            <Image className={styles.img} height={80} width={80} src={'/testimonials/cara.png'}/>
+                            <p>Pedro</p>
                         </div>
                     </div>
                     <div className={styles.card}>
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
-                            <p>Descobrir essa cafeteria foi como encontrar um oásis no meio da correria do dia a dia. Recomendo a todos que buscam qualidade e um ótimo atendimento."</p>
+                            <p>"Descobri nessa cafeteria um lugar perfeito para relaxar e apreciar um bom café. Excelente escolha para quem busca uma experiência agradável e diferenciada."</p>
                         </div>
 
                         <div className={styles.perfil}>
-                            <Image className={styles.img} height={80} width={80} src={'/testimonials/perfil.png'}/>
-                            <p>Name</p>
+                            <Image className={styles.img} height={80} width={80} src={'/testimonials/mulher.png'}/>
+                            <p>Mary</p>
                         </div>
                     </div>
                     <div className={styles.card}>
 
                         <div className={styles.text}>
                             <Image className={styles.img} height={50} width={200} src={'/testimonials/stars.webp'}/>
-                            <p>Descobrir essa cafeteria foi como encontrar um oásis no meio da correria do dia a dia. Recomendo a todos que buscam qualidade e um ótimo atendimento."</p>
+                            <p>"Entrar nessa cafeteria foi como abrir as portas para um refúgio de tranquilidade e sabor. Perfeito para quem deseja um ambiente acolhedor"</p>
                         </div>
 
                         <div className={styles.perfil}>
-                            <Image className={styles.img} height={80} width={80} src={'/testimonials/perfil.png'}/>
-                            <p>Name</p>
+                            <Image className={styles.img} height={80} width={80} src={'/testimonials/cara2.png'}/>
+                            <p>Gregory</p>
                         </div>
                     </div>
                 </div>

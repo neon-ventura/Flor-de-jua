@@ -1,4 +1,5 @@
 import About from "./components/about/About";
+import Local from "./components/local/Local";
 import Nav from "./components/nav/Nav";
 import Products from "./components/products/Products";
 import Testimonials from "./components/testimonials/Testimonias";
@@ -29,6 +30,7 @@ export default function Home() {
         <Products />
         <Testimonials />
         <About />
+        <Local />
       </div>
 
     </>
