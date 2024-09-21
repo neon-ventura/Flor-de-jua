@@ -5,6 +5,7 @@ import Nav from "./components/nav/Nav";
 import Products from "./components/products/Products";
 import Testimonials from "./components/testimonials/Testimonias";
 import Values from "./components/values/Values";
+import Zap from "./components/whatsapp/Zap";
 import styles from "./page.module.css"
 import Image from "next/image";
 
@@ -34,6 +35,7 @@ export default function Home() {
         <About />
         <Local />
         <Footer />
+        <Zap />
       </div>
 
     </>
