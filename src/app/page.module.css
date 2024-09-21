@@ -65,12 +65,3 @@
     color: #CCC8A6 ;
     transition: 0.3s ease;
 }
-
-.zap {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    width: 70px;
-    height: 70px;
-}

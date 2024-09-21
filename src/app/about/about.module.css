@@ -1,16 +1,87 @@
 .content {
     background-color: #CCC8A6;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
 }
 
-.img {
-    background-attachment: fixed;
-    height: 400px;
-    width: 400px;
+.title {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 5em;
+    padding: 40px;
+    color: #65653E;
+    text-align: center;
 }
 
-.img2 {
+.subTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+
+.ourHistory {
+    width: 500px;
+    padding: 30px;
+}
+
+
+.img1 {
     background-image: url('/about/history.jpg');
     height: 500px;
     width: 500px;
     background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.ourPhilosofy {
+    width: 500px;
+    padding: 30px;
+}
+
+
+.img2 {
+    background-image: url('/about/philosofy.jpg');
+    height: 500px;
+    width: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.ourSpace {
+    width: 500px;
+    padding: 30px;
+}
+
+.img3 {
+    background-image: url('/about/local.jpg');
+    height: 500px;
+    width: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 60px;
+}
+
+.btn {
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: #9E652E;
+    color: #CCC8A6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    border: none;
+    border-radius: 20px;
+}
+
+.a {
+    margin: auto;
 }
