@@ -24,7 +24,7 @@ export default function Home() {
             <h1 className={styles.title}>Elegância à Mesa <br /> Sabores que Encantam</h1>
             <div>
               <button className={styles.btn1}>Peça já</button>
-              <button className={styles.btn2}>Contate nos</button>
+              <a href="/contact"><button className={styles.btn2}>Contate nos</button></a>
             </div>
           </header>
         </container>

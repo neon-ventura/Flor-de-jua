@@ -1,0 +1,16 @@
+.content {
+    background-color: #CCC8A6;
+}
+
+.img {
+    background-attachment: fixed;
+    height: 400px;
+    width: 400px;
+}
+
+.img2 {
+    background-image: url('/about/history.jpg');
+    height: 500px;
+    width: 500px;
+    background-attachment: fixed;
+}
