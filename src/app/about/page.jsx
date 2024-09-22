@@ -37,9 +37,9 @@ export default function About() {
                 <div className={styles.img3}></div>
 
                 <a className={styles.a} href="/"><button className={styles.btn}>Voltar</button></a>
-            <Footer />
-        </div >
-        <Zap />
+                <Footer />
+                <Zap />
+            </div >
 
         </>
     )
