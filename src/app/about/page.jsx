@@ -32,14 +32,14 @@ export default function About() {
                 <div className={styles.img2}></div>
                 <div data-aos="fade-up" className={styles.ourSpace}>
                     <h2 className={styles.subTitle}>Nosso Espaço</h2>
-                    <p className={styles.p}>Com um design contemporâneo que mistura o clássico e o moderno, nosso espaço é o reflexo de nossa identidade: sofisticado, mas acessível; elegante, mas convidativo. Seja para um brunch de domingo, um café da tarde ou um jantar à luz de velas, cada canto do [Nome do Restaurante/Café] foi pensado para proporcionar conforto e estilo. Com iluminação suave, móveis de alta qualidade e uma atmosfera intimista, oferecemos o cenário perfeito para suas ocasiões especiais.</p>
+                    <p className={styles.p}>Com um design contemporâneo que mistura o clássico e o moderno, nosso espaço é o reflexo de nossa identidade: sofisticado, mas acessível; elegante, mas convidativo. Seja para um brunch de domingo, um café da tarde ou um jantar à luz de velas, cada canto do Flor de Juá Bistrô foi pensado para proporcionar conforto e estilo. Com iluminação suave, móveis de alta qualidade e uma atmosfera intimista, oferecemos o cenário perfeito para suas ocasiões especiais.</p>
                 </div>
                 <div className={styles.img3}></div>
 
                 <a className={styles.a} href="/"><button className={styles.btn}>Voltar</button></a>
             <Footer />
-            <Zap />
         </div >
+        <Zap />
 
         </>
     )

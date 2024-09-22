@@ -34,7 +34,8 @@
 .img1 {
     background-image: url('/about/history.jpg');
     height: 500px;
-    width: 500px;
+    width: 400px;
+    margin: auto;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -49,7 +50,8 @@
 .img2 {
     background-image: url('/about/philosofy.jpg');
     height: 500px;
-    width: 500px;
+    width: 400px;
+    margin: auto;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -62,7 +64,8 @@
 .img3 {
     background-image: url('/about/local.jpg');
     height: 500px;
-    width: 500px;
+    width: 400px;
+    margin: auto;
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
